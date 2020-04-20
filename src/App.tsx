@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as weather from './hooks/weather';
 import * as location from './hooks/location';
+import HourlyTemperature from './components/HourlyTemperature';
 
 function App() {
   const [locationData, fetchLocation] = location.useCurrentLocation();
@@ -14,8 +15,6 @@ function App() {
     }
   }, [fetchLocation, fetchWeather, locationData, weatherData]);
 
-  console.log(weatherData);
-
   if (!weatherData) return null;
 
   return (
@@ -23,11 +22,7 @@ function App() {
       <div className="row justify-content-center my-3">
         <h2>{locationData?.city}, {locationData?.region}</h2>
       </div>
-      {weatherData.hourly.map((hour) => (
-        <div className="row justify-content-center my-3" key={hour.dt}>
-          <h3>{(new Date(hour.dt*1000)).toLocaleTimeString()}</h3>
-        </div>
-      ))}
+      <HourlyTemperature hourlyData={weatherData.hourly} />
     </div>
   );
 }

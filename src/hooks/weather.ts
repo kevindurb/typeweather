@@ -12,7 +12,7 @@ interface Weather {
   icon: WeatherIcon;
 }
 
-interface CurrentWeather {
+export interface CurrentWeather {
   clouds: number;
   dewPoint: number;
   dt: number;
@@ -29,7 +29,7 @@ interface CurrentWeather {
   windSpeed: number;
 }
 
-interface DailyWeather {
+export interface DailyWeather {
   clouds: number;
   dewPoint: number;
   dt: number;
@@ -55,7 +55,7 @@ interface DailyWeather {
   weather: Weather[];
 }
 
-interface HourlyWeather {
+export interface HourlyWeather {
   clouds: number;
   dewPoint: number;
   dt: number;
@@ -68,7 +68,7 @@ interface HourlyWeather {
   windSpeed: number;
 }
 
-interface OneCall {
+export interface OneCall {
   current: CurrentWeather;
   daily: DailyWeather[];
   hourly: HourlyWeather[];
