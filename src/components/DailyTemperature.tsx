@@ -57,6 +57,7 @@ function DailyTemperature({ dailyData }: DailyTemperatureProps) {
             stroke="#dc3545"
             strokeWidth={2}
             dot={false}
+            isAnimationActive={false}
           />
           <Recharts.Line
             type="monotone"
@@ -64,6 +65,7 @@ function DailyTemperature({ dailyData }: DailyTemperatureProps) {
             stroke="#007bff"
             strokeWidth={2}
             dot={false}
+            isAnimationActive={false}
           />
           <Recharts.Tooltip
             labelFormatter={xFormatter as Recharts.LabelFormatter}

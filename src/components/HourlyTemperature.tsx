@@ -69,6 +69,7 @@ function HourlyTemperature({
             dataKey="temp"
             stroke="#343a40"
             strokeWidth={2}
+            isAnimationActive={false}
             dot={false}
           />
           <Recharts.Tooltip
