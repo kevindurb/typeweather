@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/typeweather/static/js/main.86642171.chunk.js",
-    "main.js.map": "/typeweather/static/js/main.86642171.chunk.js.map",
+    "main.js": "/typeweather/static/js/main.bb31c29c.chunk.js",
+    "main.js.map": "/typeweather/static/js/main.bb31c29c.chunk.js.map",
     "runtime-main.js": "/typeweather/static/js/runtime-main.1c65fe4e.js",
     "runtime-main.js.map": "/typeweather/static/js/runtime-main.1c65fe4e.js.map",
     "static/css/2.68bf7c02.chunk.css": "/typeweather/static/css/2.68bf7c02.chunk.css",
-    "static/js/2.c39187d0.chunk.js": "/typeweather/static/js/2.c39187d0.chunk.js",
-    "static/js/2.c39187d0.chunk.js.map": "/typeweather/static/js/2.c39187d0.chunk.js.map",
+    "static/js/2.da801e71.chunk.js": "/typeweather/static/js/2.da801e71.chunk.js",
+    "static/js/2.da801e71.chunk.js.map": "/typeweather/static/js/2.da801e71.chunk.js.map",
     "static/js/3.a63f521d.chunk.js": "/typeweather/static/js/3.a63f521d.chunk.js",
     "static/js/3.a63f521d.chunk.js.map": "/typeweather/static/js/3.a63f521d.chunk.js.map",
     "static/js/4.ba134d46.chunk.js": "/typeweather/static/js/4.ba134d46.chunk.js",
@@ -1080,10 +1080,10 @@
     "static/js/538.59bbe01f.chunk.js": "/typeweather/static/js/538.59bbe01f.chunk.js",
     "static/js/538.59bbe01f.chunk.js.map": "/typeweather/static/js/538.59bbe01f.chunk.js.map",
     "index.html": "/typeweather/index.html",
-    "precache-manifest.621e3859b047d942bd66a7be6c96558e.js": "/typeweather/precache-manifest.621e3859b047d942bd66a7be6c96558e.js",
+    "precache-manifest.557f908911bb83e234854256e901aa5d.js": "/typeweather/precache-manifest.557f908911bb83e234854256e901aa5d.js",
     "service-worker.js": "/typeweather/service-worker.js",
     "static/css/2.68bf7c02.chunk.css.map": "/typeweather/static/css/2.68bf7c02.chunk.css.map",
-    "static/js/2.c39187d0.chunk.js.LICENSE.txt": "/typeweather/static/js/2.c39187d0.chunk.js.LICENSE.txt",
+    "static/js/2.da801e71.chunk.js.LICENSE.txt": "/typeweather/static/js/2.da801e71.chunk.js.LICENSE.txt",
     "static/media/alarm-fill.svg": "/typeweather/static/media/alarm-fill.89f6a1fb.svg",
     "static/media/alarm.svg": "/typeweather/static/media/alarm.2429e1c7.svg",
     "static/media/alt.svg": "/typeweather/static/media/alt.d80c0723.svg",
@@ -1624,7 +1624,7 @@
   "entrypoints": [
     "static/js/runtime-main.1c65fe4e.js",
     "static/css/2.68bf7c02.chunk.css",
-    "static/js/2.c39187d0.chunk.js",
-    "static/js/main.86642171.chunk.js"
+    "static/js/2.da801e71.chunk.js",
+    "static/js/main.bb31c29c.chunk.js"
   ]
 }

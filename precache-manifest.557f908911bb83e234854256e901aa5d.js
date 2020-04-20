@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da4c8e669166f7edf28fa5421d81b010",
+    "revision": "5d0e8531bde0b1d95d33620511037e79",
     "url": "/typeweather/index.html"
   },
   {
-    "revision": "326354c60b200010e25e",
+    "revision": "ff0b84497ab661199c0b",
     "url": "/typeweather/static/css/2.68bf7c02.chunk.css"
   },
   {
@@ -448,12 +448,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/typeweather/static/js/199.0b1a6f41.chunk.js"
   },
   {
-    "revision": "326354c60b200010e25e",
-    "url": "/typeweather/static/js/2.c39187d0.chunk.js"
+    "revision": "ff0b84497ab661199c0b",
+    "url": "/typeweather/static/js/2.da801e71.chunk.js"
   },
   {
     "revision": "aa754ba9f73776ab5291549b6092b0f0",
-    "url": "/typeweather/static/js/2.c39187d0.chunk.js.LICENSE.txt"
+    "url": "/typeweather/static/js/2.da801e71.chunk.js.LICENSE.txt"
   },
   {
     "revision": "b74b26e0a1971940dfad",
@@ -2160,8 +2160,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/typeweather/static/js/99.37353e75.chunk.js"
   },
   {
-    "revision": "51aedce30a1d35295576",
-    "url": "/typeweather/static/js/main.86642171.chunk.js"
+    "revision": "f847f36dbdb545e26e34",
+    "url": "/typeweather/static/js/main.bb31c29c.chunk.js"
   },
   {
     "revision": "04d3b1a1aab85cd70c63",
