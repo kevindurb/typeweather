@@ -5,50 +5,89 @@ import { IconType } from '../components/Icon';
 const BASE_URL = 'http://api.openweathermap.org/data/2.5';
 const TOKEN = process.env.REACT_APP_OPEN_WEATHER_TOKEN as string;
 
-type WeatherIcon =
-  '04d';
+type WeatherIcon = '04d';
 
 interface Weather {
-  description: string
-  icon: WeatherIcon
+  description: string;
+  icon: WeatherIcon;
 }
 
 interface CurrentWeather {
-  main: {
-    feelsLike: number;
-    temp: number;
-    tempMax: number;
-    tempMin: number;
+  clouds: number;
+  dewPoint: number;
+  dt: number;
+  feelsLike: number;
+  humidity: number;
+  pressure: number;
+  sunrise: number;
+  sunset: number;
+  temp: number;
+  uvi: number;
+  visibility: number;
+  weather: Weather[];
+  windDeg: number;
+  windSpeed: number;
+}
+
+interface DailyWeather {
+  clouds: number;
+  dewPoint: number;
+  dt: number;
+  feelsLike: {
+    eve: number;
+    day: number;
+    morn: number;
+    night: number;
   };
-  weather: Weather[]
+  humidity: number;
+  pressure: number;
+  rain: number;
+  sunrise: number;
+  sunset: number;
+  temp: {
+    eve: number;
+    day: number;
+    min: number;
+    max: number;
+    morn: number;
+    night: number;
+  };
+  weather: Weather[];
+}
+
+interface HourlyWeather {
+  clouds: number;
+  dewPoint: number;
+  dt: number;
+  feelsLike: number;
+  humidity: number;
+  pressure: number;
+  temp: number;
+  weather: Weather[];
+  windDeg: number;
+  windSpeed: number;
 }
 
 interface OneCall {
+  current: CurrentWeather;
+  daily: DailyWeather[];
+  hourly: HourlyWeather[];
 }
 
 export const useWeatherData = (lat: number, lon: number) => {
   const url = `${BASE_URL}/onecall`;
 
-  const params = React.useMemo(() => ({
-    lat: lat.toString(),
-    lon: lon.toString(),
-    appid: TOKEN,
-    units: 'imperial',
-  }), [lat, lon]);
+  const params = React.useMemo(
+    () => ({
+      lat: lat.toString(),
+      lon: lon.toString(),
+      appid: TOKEN,
+      units: 'imperial',
+    }),
+    [lat, lon],
+  );
 
   return api.useGet<OneCall>(url, params);
-}
-
-export const useCurrentWeather = (q: string) => {
-  const url = `${BASE_URL}/weather`;
-
-  const params = React.useMemo(() => ({
-    q,
-    appid: TOKEN,
-    units: 'imperial',
-  }), [q]);
-
-  return api.useGet<CurrentWeather>(url, params);
 };
 
 export const useWeatherIcon = (icon: WeatherIcon) => {
@@ -57,4 +96,4 @@ export const useWeatherIcon = (icon: WeatherIcon) => {
       return IconType.cloud;
     }
   }
-}
+};

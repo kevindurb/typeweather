@@ -14,7 +14,7 @@ function App() {
     }
   }, [fetchLocation, fetchWeather, locationData, weatherData]);
 
-  console.log(locationData, weatherData);
+  console.log(weatherData);
 
   if (!weatherData) return null;
 
@@ -23,10 +23,14 @@ function App() {
       <div className="row justify-content-center my-3">
         <h2>{locationData?.city}, {locationData?.region}</h2>
       </div>
-      <div className="row justify-content-center my-3">
-      </div>
+      {weatherData.hourly.map((hour) => (
+        <div className="row justify-content-center my-3" key={hour.dt}>
+          <h3>{(new Date(hour.dt*1000)).toLocaleTimeString()}</h3>
+        </div>
+      ))}
     </div>
   );
 }
 
-export default App;
+export default App
+
