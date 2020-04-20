@@ -1,27 +1,21 @@
 import * as React from 'react';
 import * as Recharts from 'recharts';
-import { HourlyWeather } from '../hooks/weather';
+import { DailyWeather } from '../hooks/weather';
 import * as dom from '../hooks/dom';
 
-interface HourlyTemperatureProps {
-  hourlyData: HourlyWeather[];
-  maxTemp: number;
-  minTemp: number;
+interface DailyTemperatureProps {
+  dailyData: DailyWeather[];
 }
 
-function HourlyTemperature({
-  hourlyData,
-  maxTemp,
-  minTemp,
-}: HourlyTemperatureProps) {
+function DailyTemperature({ dailyData }: DailyTemperatureProps) {
   const [container, width] = dom.useRefWidth<HTMLDivElement>();
 
-  const subset = React.useMemo(() => hourlyData.slice(0, 24), [hourlyData]);
+  const subset = React.useMemo(() => dailyData.slice(0, 7), [dailyData]);
   const height = React.useMemo(() => width * (9 / 16), [width]);
   const domain = React.useMemo(() => ['dataMin', 'dataMax'], []);
   const xFormatter = React.useCallback((dt: number) => {
-    const hour = new Date(dt * 1000).getHours();
-    return hour > 12 ? `${hour - 12}p` : `${hour}a`;
+    const date = new Date(dt * 1000);
+    return `${date.getDate()}/${date.getMonth() + 1}`;
   }, []);
 
   const margin = React.useMemo(
@@ -49,33 +43,26 @@ function HourlyTemperature({
         />
         <Recharts.YAxis
           hide={true}
-          dataKey="temp"
           domain={domain as [Recharts.AxisDomain, Recharts.AxisDomain]}
         />
         <Recharts.Line
           type="monotone"
-          dataKey="temp"
-          stroke="#343a40"
+          dataKey="temp.max"
+          stroke="#dc3545"
+          strokeWidth={2}
+        />
+        <Recharts.Line
+          type="monotone"
+          dataKey="temp.min"
+          stroke="#007bff"
           strokeWidth={2}
         />
         <Recharts.Tooltip
           labelFormatter={xFormatter as Recharts.LabelFormatter}
-        />
-        <Recharts.ReferenceLine
-          y={maxTemp}
-          label={`High ${maxTemp}`}
-          stroke="#dc3545"
-          strokeWidth={2}
-        />
-        <Recharts.ReferenceLine
-          y={minTemp}
-          label={`Low ${minTemp}`}
-          stroke="#007bff"
-          strokeWidth={2}
         />
       </Recharts.LineChart>
     </div>
   );
 }
 
-export default React.memo(HourlyTemperature);
+export default React.memo(DailyTemperature);
