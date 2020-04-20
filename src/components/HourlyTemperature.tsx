@@ -40,6 +40,12 @@ function HourlyTemperature({
       <div className="row justify-content-center my-3">
         <h3>Hourly</h3>
       </div>
+      <div className="row justify-content-center my-3">
+        <h5>
+          <span className="text-danger">{maxTemp.toFixed(0)}&deg;</span> /{' '}
+          <span className="text-primary">{minTemp.toFixed(0)}&deg;</span>
+        </h5>
+      </div>
       <div ref={container}>
         <Recharts.LineChart
           data={subset}
