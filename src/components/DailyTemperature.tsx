@@ -32,7 +32,7 @@ function DailyTemperature({ dailyData }: DailyTemperatureProps) {
   return (
     <>
       <div className="row justify-content-center my-3">
-        <h3>Daily</h3>
+        <h2>Daily</h2>
       </div>
       <div ref={container}>
         <Recharts.LineChart
