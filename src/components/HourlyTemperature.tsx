@@ -62,12 +62,29 @@ function HourlyTemperature({
           <Recharts.YAxis
             hide={true}
             dataKey="temp"
+            yAxisId="temp"
             domain={domain as [Recharts.AxisDomain, Recharts.AxisDomain]}
+          />
+          <Recharts.YAxis
+            hide={true}
+            dataKey="rain.1h"
+            yAxisId="rain"
+            domain={[0, 1]}
           />
           <Recharts.Line
             type="monotone"
             dataKey="temp"
+            yAxisId="temp"
             stroke="#343a40"
+            strokeWidth={2}
+            isAnimationActive={false}
+            dot={false}
+          />
+          <Recharts.Line
+            type="monotone"
+            dataKey="rain.1h"
+            yAxisId="rain"
+            stroke="#20c997"
             strokeWidth={2}
             isAnimationActive={false}
             dot={false}
@@ -79,11 +96,13 @@ function HourlyTemperature({
             y={maxTemp}
             stroke="#dc3545"
             strokeWidth={2}
+            yAxisId="temp"
           />
           <Recharts.ReferenceLine
             y={minTemp}
             stroke="#007bff"
             strokeWidth={2}
+            yAxisId="temp"
           />
         </Recharts.LineChart>
       </div>
