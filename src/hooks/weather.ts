@@ -66,6 +66,9 @@ export interface HourlyWeather {
   weather: Weather[];
   windDeg: number;
   windSpeed: number;
+  rain?: {
+    ['1h']: number
+  }
 }
 
 export interface OneCall {

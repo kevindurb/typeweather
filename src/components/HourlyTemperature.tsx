@@ -17,7 +17,14 @@ function HourlyTemperature({
 }: HourlyTemperatureProps) {
   const [container, width] = dom.useRefWidth<HTMLDivElement>();
 
-  const subset = React.useMemo(() => hourlyData.slice(0, 24), [hourlyData]);
+  const subset = React.useMemo(
+    () =>
+      hourlyData.slice(0, 24).map((hour) => ({
+        temp: hour.temp,
+        rain: hour.rain?.['1h'] ?? 0,
+      })),
+    [hourlyData],
+  );
   const height = React.useMemo(() => width * (9 / 16), [width]);
   const domain = React.useMemo(() => ['dataMin', 'dataMax'], []);
   const xFormatter = React.useCallback(
@@ -67,7 +74,7 @@ function HourlyTemperature({
           />
           <Recharts.YAxis
             hide={true}
-            dataKey="rain.1h"
+            dataKey="rain"
             yAxisId="rain"
             domain={[0, 1]}
           />
@@ -82,7 +89,7 @@ function HourlyTemperature({
           />
           <Recharts.Line
             type="monotone"
-            dataKey="rain.1h"
+            dataKey="rain"
             yAxisId="rain"
             stroke="#20c997"
             strokeWidth={2}
