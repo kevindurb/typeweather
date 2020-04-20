@@ -3,6 +3,7 @@ import * as weather from './hooks/weather';
 import * as location from './hooks/location';
 import HourlyTemperature from './components/HourlyTemperature';
 import DailyTemperature from './components/DailyTemperature';
+import CurrentWeather from './components/CurrentWeather';
 
 function App() {
   const [locationData, fetchLocation] = location.useCurrentLocation();
@@ -23,17 +24,14 @@ function App() {
       <div className="row justify-content-center my-3">
         <h2>{locationData?.city}, {locationData?.region}</h2>
       </div>
-      <div className="row justify-content-center my-3">
-        <h3>Hourly</h3>
-      </div>
+      <CurrentWeather
+        currentData={weatherData.current}
+      />
       <HourlyTemperature
         hourlyData={weatherData.hourly}
         maxTemp={weatherData.daily[0]?.temp.max}
         minTemp={weatherData.daily[0]?.temp.min}
       />
-      <div className="row justify-content-center my-3">
-        <h3>Daily</h3>
-      </div>
       <DailyTemperature
         dailyData={weatherData.daily}
       />

@@ -35,46 +35,51 @@ function HourlyTemperature({
   );
 
   return (
-    <div ref={container}>
-      <Recharts.LineChart
-        data={subset}
-        width={width}
-        height={height}
-        margin={margin}
-      >
-        <Recharts.XAxis
-          dataKey="dt"
-          tickFormatter={xFormatter}
-          axisLine={false}
-        />
-        <Recharts.YAxis
-          hide={true}
-          dataKey="temp"
-          domain={domain as [Recharts.AxisDomain, Recharts.AxisDomain]}
-        />
-        <Recharts.Line
-          type="monotone"
-          dataKey="temp"
-          stroke="#343a40"
-          strokeWidth={2}
-        />
-        <Recharts.Tooltip
-          labelFormatter={xFormatter as Recharts.LabelFormatter}
-        />
-        <Recharts.ReferenceLine
-          y={maxTemp}
-          label={`High ${maxTemp}`}
-          stroke="#dc3545"
-          strokeWidth={2}
-        />
-        <Recharts.ReferenceLine
-          y={minTemp}
-          label={`Low ${minTemp}`}
-          stroke="#007bff"
-          strokeWidth={2}
-        />
-      </Recharts.LineChart>
-    </div>
+    <>
+      <div className="row justify-content-center my-3">
+        <h3>Hourly</h3>
+      </div>
+      <div ref={container}>
+        <Recharts.LineChart
+          data={subset}
+          width={width}
+          height={height}
+          margin={margin}
+        >
+          <Recharts.XAxis
+            dataKey="dt"
+            tickFormatter={xFormatter}
+            axisLine={false}
+          />
+          <Recharts.YAxis
+            hide={true}
+            dataKey="temp"
+            domain={domain as [Recharts.AxisDomain, Recharts.AxisDomain]}
+          />
+          <Recharts.Line
+            type="monotone"
+            dataKey="temp"
+            stroke="#343a40"
+            strokeWidth={2}
+          />
+          <Recharts.Tooltip
+            labelFormatter={xFormatter as Recharts.LabelFormatter}
+          />
+          <Recharts.ReferenceLine
+            y={maxTemp}
+            label={`High ${maxTemp}`}
+            stroke="#dc3545"
+            strokeWidth={2}
+          />
+          <Recharts.ReferenceLine
+            y={minTemp}
+            label={`Low ${minTemp}`}
+            stroke="#007bff"
+            strokeWidth={2}
+          />
+        </Recharts.LineChart>
+      </div>
+    </>
   );
 }
 

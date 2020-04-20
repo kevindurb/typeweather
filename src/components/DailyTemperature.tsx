@@ -29,39 +29,44 @@ function DailyTemperature({ dailyData }: DailyTemperatureProps) {
   );
 
   return (
-    <div ref={container}>
-      <Recharts.LineChart
-        data={subset}
-        width={width}
-        height={height}
-        margin={margin}
-      >
-        <Recharts.XAxis
-          dataKey="dt"
-          tickFormatter={xFormatter}
-          axisLine={false}
-        />
-        <Recharts.YAxis
-          hide={true}
-          domain={domain as [Recharts.AxisDomain, Recharts.AxisDomain]}
-        />
-        <Recharts.Line
-          type="monotone"
-          dataKey="temp.max"
-          stroke="#dc3545"
-          strokeWidth={2}
-        />
-        <Recharts.Line
-          type="monotone"
-          dataKey="temp.min"
-          stroke="#007bff"
-          strokeWidth={2}
-        />
-        <Recharts.Tooltip
-          labelFormatter={xFormatter as Recharts.LabelFormatter}
-        />
-      </Recharts.LineChart>
-    </div>
+    <>
+      <div className="row justify-content-center my-3">
+        <h3>Daily</h3>
+      </div>
+      <div ref={container}>
+        <Recharts.LineChart
+          data={subset}
+          width={width}
+          height={height}
+          margin={margin}
+        >
+          <Recharts.XAxis
+            dataKey="dt"
+            tickFormatter={xFormatter}
+            axisLine={false}
+          />
+          <Recharts.YAxis
+            hide={true}
+            domain={domain as [Recharts.AxisDomain, Recharts.AxisDomain]}
+          />
+          <Recharts.Line
+            type="monotone"
+            dataKey="temp.max"
+            stroke="#dc3545"
+            strokeWidth={2}
+          />
+          <Recharts.Line
+            type="monotone"
+            dataKey="temp.min"
+            stroke="#007bff"
+            strokeWidth={2}
+          />
+          <Recharts.Tooltip
+            labelFormatter={xFormatter as Recharts.LabelFormatter}
+          />
+        </Recharts.LineChart>
+      </div>
+    </>
   );
 }
 
