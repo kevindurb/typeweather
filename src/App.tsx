@@ -22,7 +22,14 @@ function App() {
       <div className="row justify-content-center my-3">
         <h2>{locationData?.city}, {locationData?.region}</h2>
       </div>
-      <HourlyTemperature hourlyData={weatherData.hourly} />
+      <div className="row justify-content-center my-3">
+        <h3>24 Hours</h3>
+      </div>
+      <HourlyTemperature
+        hourlyData={weatherData.hourly}
+        maxTemp={weatherData.daily[0]?.temp.max}
+        minTemp={weatherData.daily[0]?.temp.min}
+      />
     </div>
   );
 }

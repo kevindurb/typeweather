@@ -5,9 +5,15 @@ import * as dom from '../hooks/dom';
 
 interface HourlyTemperatureProps {
   hourlyData: HourlyWeather[];
+  maxTemp: number;
+  minTemp: number;
 }
 
-function HourlyTemperature({ hourlyData }: HourlyTemperatureProps) {
+function HourlyTemperature({
+  hourlyData,
+  maxTemp,
+  minTemp,
+}: HourlyTemperatureProps) {
   const [container, width] = dom.useRefWidth<HTMLDivElement>();
 
   const subset = React.useMemo(() => hourlyData.slice(0, 24), [hourlyData]);
@@ -22,7 +28,7 @@ function HourlyTemperature({ hourlyData }: HourlyTemperatureProps) {
     () => ({
       top: 4,
       right: 4,
-      left: -20,
+      left: 4,
       bottom: 0,
     }),
     [],
@@ -36,8 +42,13 @@ function HourlyTemperature({ hourlyData }: HourlyTemperatureProps) {
         height={height}
         margin={margin}
       >
-        <Recharts.XAxis dataKey="dt" tickFormatter={xFormatter} />
+        <Recharts.XAxis
+          dataKey="dt"
+          tickFormatter={xFormatter}
+          axisLine={false}
+        />
         <Recharts.YAxis
+          hide={true}
           dataKey="temp"
           domain={domain as [Recharts.AxisDomain, Recharts.AxisDomain]}
           tickFormatter={Math.round}
@@ -45,11 +56,23 @@ function HourlyTemperature({ hourlyData }: HourlyTemperatureProps) {
         <Recharts.Line
           type="monotone"
           dataKey="temp"
-          stroke="#007bff"
+          stroke="#343a40"
           strokeWidth={2}
         />
         <Recharts.Tooltip
           labelFormatter={xFormatter as Recharts.LabelFormatter}
+        />
+        <Recharts.ReferenceLine
+          y={maxTemp}
+          label={`High ${maxTemp}`}
+          stroke="#dc3545"
+          strokeWidth={2}
+        />
+        <Recharts.ReferenceLine
+          y={minTemp}
+          label={`Low ${minTemp}`}
+          stroke="#007bff"
+          strokeWidth={2}
         />
       </Recharts.LineChart>
     </div>
