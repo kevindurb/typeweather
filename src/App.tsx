@@ -8,7 +8,7 @@ import CurrentWeather from './components/CurrentWeather';
 
 function App() {
   const [locationData, fetchLocation] = location.useCurrentLocation();
-  const [weatherData, fetchWeather] = weather.useWeatherData(locationData?.lat ?? 0, locationData?.lon ?? 0);
+  const [weatherData, fetchWeather] = weather.useWeatherData(locationData?.latitude, locationData?.longitude);
   const [now, setNow] = React.useState(new Date());
 
   React.useEffect(() => {

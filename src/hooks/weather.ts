@@ -74,13 +74,13 @@ export interface OneCall {
   hourly: HourlyWeather[];
 }
 
-export const useWeatherData = (lat: number, lon: number) => {
+export const useWeatherData = (lat?: number, lon?: number) => {
   const url = `${BASE_URL}/onecall`;
 
   const params = React.useMemo(
     () => ({
-      lat: lat.toString(),
-      lon: lon.toString(),
+      lat: (lat ?? 0).toString(),
+      lon: (lon ?? 0).toString(),
       appid: TOKEN,
       units: 'imperial',
     }),
