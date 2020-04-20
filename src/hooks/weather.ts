@@ -23,6 +23,22 @@ interface CurrentWeather {
   weather: Weather[]
 }
 
+interface OneCall {
+}
+
+export const useWeatherData = (lat: number, lon: number) => {
+  const url = `${BASE_URL}/onecall`;
+
+  const params = React.useMemo(() => ({
+    lat: lat.toString(),
+    lon: lon.toString(),
+    appid: TOKEN,
+    units: 'imperial',
+  }), [lat, lon]);
+
+  return api.useGet<OneCall>(url, params);
+}
+
 export const useCurrentWeather = (q: string) => {
   const url = `${BASE_URL}/weather`;
 
