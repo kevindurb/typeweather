@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/octagon-fill.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/377.354901e0.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/octagon-fill.35982397.svg\";"],"sourceRoot":""}

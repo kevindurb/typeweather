@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/skip-start.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/453.e3bc74cd.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/skip-start.c3c2c2f3.svg\";"],"sourceRoot":""}

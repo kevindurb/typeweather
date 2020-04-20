@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/fullscreen.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/284.8b5493a1.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/fullscreen.fbc471a1.svg\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/card-image.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/119.35a11130.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/card-image.444233a1.svg\";"],"sourceRoot":""}

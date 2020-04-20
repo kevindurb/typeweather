@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/view-stacked.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/517.4fc58e07.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/view-stacked.af150c03.svg\";"],"sourceRoot":""}

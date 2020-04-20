@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/trash-fill.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/494.ac694c6a.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/trash-fill.713d6f00.svg\";"],"sourceRoot":""}

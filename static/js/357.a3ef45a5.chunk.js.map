@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/list-check.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/357.a3ef45a5.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/list-check.c4f007b5.svg\";"],"sourceRoot":""}

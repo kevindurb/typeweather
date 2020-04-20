@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/watch.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/526.da36b511.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/watch.85c82b10.svg\";"],"sourceRoot":""}

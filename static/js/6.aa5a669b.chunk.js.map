@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/app-indicator.svg"],"names":["module","exports"],"mappings":"+FAAAA,EAAOC,QAAU,IAA0B","file":"static/js/6.aa5a669b.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/app-indicator.64a08031.svg\";"],"sourceRoot":""}

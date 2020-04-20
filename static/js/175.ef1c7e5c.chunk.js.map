@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/cloud-download.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/175.ef1c7e5c.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/cloud-download.7f6b1a08.svg\";"],"sourceRoot":""}

@@ -1,0 +1,2 @@
+(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[77],{428:function(e,t,p){e.exports=p.p+"static/media/bounding-box.7000087a.svg"}}]);
+//# sourceMappingURL=77.96e1be6c.chunk.js.map

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/speaker.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/461.f49e3c8b.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/speaker.5cde3616.svg\";"],"sourceRoot":""}

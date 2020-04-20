@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/list-task.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/360.fe6c5886.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/list-task.d1aaa964.svg\";"],"sourceRoot":""}
