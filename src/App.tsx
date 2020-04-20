@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="container">
       <div className="row justify-content-center my-3">
-        <h2>{locationData?.city}, {locationData?.region}</h2>
+        <h2 className="text-secondary text-center col">{locationData?.city}, {locationData?.region}</h2>
       </div>
       <CurrentWeather
         currentData={weatherData.current}
