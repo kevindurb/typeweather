@@ -1,2 +1,0 @@
-(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[391],{742:function(e,p,t){e.exports=t.p+"static/media/people-circle.12f5b332.svg"}}]);
-//# sourceMappingURL=391.918df3b4.chunk.js.map

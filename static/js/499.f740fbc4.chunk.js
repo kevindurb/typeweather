@@ -1,2 +1,0 @@
-(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[499],{850:function(e,t,p){e.exports=p.p+"static/media/triangle-half.c1162550.svg"}}]);
-//# sourceMappingURL=499.f740fbc4.chunk.js.map

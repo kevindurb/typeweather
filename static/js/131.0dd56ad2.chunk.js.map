@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/chat-dots.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/131.0dd56ad2.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/chat-dots.07bb061e.svg\";"],"sourceRoot":""}

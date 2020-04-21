@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/star-fill.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/465.803dca02.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/star-fill.577eee85.svg\";"],"sourceRoot":""}

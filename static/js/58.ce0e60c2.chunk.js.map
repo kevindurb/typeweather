@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/battery-half.svg"],"names":["module","exports"],"mappings":"gGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/58.ce0e60c2.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/battery-half.c021a01f.svg\";"],"sourceRoot":""}

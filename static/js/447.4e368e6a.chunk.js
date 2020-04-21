@@ -1,2 +1,0 @@
-(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[447],{798:function(e,p,t){e.exports=t.p+"static/media/skip-backward.e55b7cf5.svg"}}]);
-//# sourceMappingURL=447.4e368e6a.chunk.js.map

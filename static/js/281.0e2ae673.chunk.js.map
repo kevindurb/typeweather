@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/forward-fill.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/281.0e2ae673.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/forward-fill.ec36cffa.svg\";"],"sourceRoot":""}

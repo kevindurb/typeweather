@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/file-ruled.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/260.10021eb4.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/file-ruled.6d46b88a.svg\";"],"sourceRoot":""}

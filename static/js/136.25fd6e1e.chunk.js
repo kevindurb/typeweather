@@ -1,0 +1,2 @@
+(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[136],{491:function(e,t,s){e.exports=s.p+"static/media/chat-square-dots.3e4766d2.svg"}}]);
+//# sourceMappingURL=136.25fd6e1e.chunk.js.map

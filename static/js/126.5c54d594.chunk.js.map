@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/caret-right-fill.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/126.5c54d594.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/caret-right-fill.1fbd2db1.svg\";"],"sourceRoot":""}

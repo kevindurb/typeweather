@@ -1,2 +1,0 @@
-(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[470],{821:function(t,e,p){t.exports=p.p+"static/media/stopwatch-fill.8301162d.svg"}}]);
-//# sourceMappingURL=470.e9ac7368.chunk.js.map

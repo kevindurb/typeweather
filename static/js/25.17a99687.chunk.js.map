@@ -1,1 +1,0 @@
-{"version":3,"sources":["../node_modules/bootstrap-icons/icons/arrow-left-short.svg"],"names":["module","exports"],"mappings":"gGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/25.17a99687.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/arrow-left-short.7ee4829c.svg\";"],"sourceRoot":""}

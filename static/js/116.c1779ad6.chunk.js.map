@@ -1,1 +1,0 @@
-{"version":3,"sources":["../node_modules/bootstrap-icons/icons/capslock.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/116.c1779ad6.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/capslock.0f62b720.svg\";"],"sourceRoot":""}

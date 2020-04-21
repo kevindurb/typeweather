@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/people-circle.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/391.beeb2f99.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/people-circle.12f5b332.svg\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["../node_modules/bootstrap-icons/icons/flag-fill.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/271.e62c970d.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/flag-fill.e2e5a9a1.svg\";"],"sourceRoot":""}

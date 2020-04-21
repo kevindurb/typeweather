@@ -1,2 +1,0 @@
-(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[99],{450:function(t,e,s){t.exports=s.p+"static/media/brightness-alt-low-fill.db7dd606.svg"}}]);
-//# sourceMappingURL=99.37353e75.chunk.js.map

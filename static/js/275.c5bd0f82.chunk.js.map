@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/folder-minus.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/275.c5bd0f82.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/folder-minus.5b785ac6.svg\";"],"sourceRoot":""}

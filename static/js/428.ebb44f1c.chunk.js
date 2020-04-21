@@ -1,2 +1,0 @@
-(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[428],{779:function(e,t,s){e.exports=s.p+"static/media/question-square-fill.127385c6.svg"}}]);
-//# sourceMappingURL=428.ebb44f1c.chunk.js.map

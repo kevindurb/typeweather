@@ -1,1 +1,0 @@
-{"version":3,"sources":["../node_modules/bootstrap-icons/icons/fonts.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/280.6dc9b8d2.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/fonts.480d1656.svg\";"],"sourceRoot":""}

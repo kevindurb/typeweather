@@ -1,2 +1,0 @@
-(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[54],{405:function(t,a,e){t.exports=e.p+"static/media/bar-chart-fill.a4ff38a7.svg"}}]);
-//# sourceMappingURL=54.dbd83809.chunk.js.map

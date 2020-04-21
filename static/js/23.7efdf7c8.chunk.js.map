@@ -1,1 +1,0 @@
-{"version":3,"sources":["../node_modules/bootstrap-icons/icons/arrow-down.svg"],"names":["module","exports"],"mappings":"gGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/23.7efdf7c8.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/arrow-down.16939e86.svg\";"],"sourceRoot":""}

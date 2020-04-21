@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/bootstrap.svg"],"names":["module","exports"],"mappings":"gGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/75.2e58125c.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/bootstrap.141e21fd.svg\";"],"sourceRoot":""}

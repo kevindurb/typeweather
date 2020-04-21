@@ -1,2 +1,0 @@
-(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[278],{629:function(e,t,p){e.exports=p.p+"static/media/folder-symlink.d63725b1.svg"}}]);
-//# sourceMappingURL=278.12b2f280.chunk.js.map

@@ -1,2 +1,0 @@
-(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[123],{474:function(e,t,p){e.exports=p.p+"static/media/caret-down.3d298760.svg"}}]);
-//# sourceMappingURL=123.7ac5c57b.chunk.js.map

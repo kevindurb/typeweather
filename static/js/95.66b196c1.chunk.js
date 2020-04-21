@@ -1,0 +1,2 @@
+(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[95],{450:function(e,t,p){e.exports=p.p+"static/media/briefcase-fill.7399a4d5.svg"}}]);
+//# sourceMappingURL=95.66b196c1.chunk.js.map

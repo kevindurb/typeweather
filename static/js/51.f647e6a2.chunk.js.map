@@ -1,1 +1,0 @@
-{"version":3,"sources":["../node_modules/bootstrap-icons/icons/backspace.svg"],"names":["module","exports"],"mappings":"gGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/51.f647e6a2.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/backspace.14f0370f.svg\";"],"sourceRoot":""}

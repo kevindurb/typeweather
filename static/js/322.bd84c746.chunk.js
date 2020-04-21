@@ -1,0 +1,2 @@
+(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[322],{677:function(e,t,p){e.exports=p.p+"static/media/inbox-fill.81908394.svg"}}]);
+//# sourceMappingURL=322.bd84c746.chunk.js.map

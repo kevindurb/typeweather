@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/shield-shaded.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/441.8f45d5ec.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/shield-shaded.066f9d88.svg\";"],"sourceRoot":""}

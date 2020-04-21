@@ -1,1 +1,0 @@
-{"version":3,"sources":["../node_modules/bootstrap-icons/icons/flag.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/272.7ce96230.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/flag.fd3d23b0.svg\";"],"sourceRoot":""}

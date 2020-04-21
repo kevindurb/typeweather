@@ -1,2 +1,0 @@
-(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[119],{470:function(e,t,a){e.exports=a.p+"static/media/card-image.444233a1.svg"}}]);
-//# sourceMappingURL=119.35a11130.chunk.js.map

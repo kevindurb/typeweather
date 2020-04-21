@@ -1,2 +1,0 @@
-(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[301],{652:function(e,p,t){e.exports=t.p+"static/media/grid-3x2-gap.05d74171.svg"}}]);
-//# sourceMappingURL=301.cdf36c6c.chunk.js.map

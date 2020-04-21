@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/inbox-fill.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/322.bd84c746.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/inbox-fill.81908394.svg\";"],"sourceRoot":""}

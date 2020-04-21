@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/grid-3x3.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/305.940b4077.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/grid-3x3.b292edd1.svg\";"],"sourceRoot":""}

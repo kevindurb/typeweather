@@ -1,2 +1,0 @@
-(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[181],{532:function(e,t,p){e.exports=p.p+"static/media/collection-fill.18821b7d.svg"}}]);
-//# sourceMappingURL=181.c77198ff.chunk.js.map

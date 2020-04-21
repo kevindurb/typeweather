@@ -1,2 +1,0 @@
-(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[389],{740:function(e,t,p){e.exports=p.p+"static/media/pentagon-half.f4e36cfb.svg"}}]);
-//# sourceMappingURL=389.bee2174c.chunk.js.map

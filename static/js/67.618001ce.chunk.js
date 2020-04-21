@@ -1,0 +1,2 @@
+(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[67],{422:function(e,t,p){e.exports=p.p+"static/media/bookmark-dash.772308c2.svg"}}]);
+//# sourceMappingURL=67.618001ce.chunk.js.map

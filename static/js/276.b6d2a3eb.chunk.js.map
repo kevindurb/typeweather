@@ -1,1 +1,0 @@
-{"version":3,"sources":["../node_modules/bootstrap-icons/icons/folder-plus.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/276.b6d2a3eb.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/folder-plus.f3a9e44f.svg\";"],"sourceRoot":""}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/gear-wide-connected.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/288.305e78c1.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/gear-wide-connected.b39496d0.svg\";"],"sourceRoot":""}

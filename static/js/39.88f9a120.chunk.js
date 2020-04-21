@@ -1,0 +1,2 @@
+(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[39],{394:function(e,p,s){e.exports=s.p+"static/media/arrows-collapse.30bf402b.svg"}}]);
+//# sourceMappingURL=39.88f9a120.chunk.js.map

@@ -1,1 +1,0 @@
-{"version":3,"sources":["../node_modules/bootstrap-icons/icons/image-alt.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/318.bf5f4806.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/image-alt.219b45b2.svg\";"],"sourceRoot":""}

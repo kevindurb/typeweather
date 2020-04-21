@@ -1,1 +1,0 @@
-{"version":3,"sources":["../node_modules/bootstrap-icons/icons/stopwatch.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/471.0590e499.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/stopwatch.8d6967b9.svg\";"],"sourceRoot":""}

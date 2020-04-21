@@ -1,1 +1,0 @@
-{"version":3,"sources":["../node_modules/bootstrap-icons/icons/check-box.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/143.09ad2270.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/check-box.3bb8a333.svg\";"],"sourceRoot":""}

@@ -1,2 +1,0 @@
-(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[348],{699:function(e,t,p){e.exports=p.p+"static/media/layout-text-window-reverse.ec7b201d.svg"}}]);
-//# sourceMappingURL=348.20755721.chunk.js.map

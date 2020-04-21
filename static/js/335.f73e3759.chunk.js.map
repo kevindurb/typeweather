@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/kanban-fill.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/335.f73e3759.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/kanban-fill.1c645983.svg\";"],"sourceRoot":""}

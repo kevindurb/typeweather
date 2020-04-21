@@ -1,0 +1,2 @@
+(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[335],{690:function(e,t,p){e.exports=p.p+"static/media/kanban-fill.1c645983.svg"}}]);
+//# sourceMappingURL=335.f73e3759.chunk.js.map

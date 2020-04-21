@@ -1,2 +1,0 @@
-(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[20],{371:function(e,t,a){e.exports=a.p+"static/media/arrow-down-left.1ea4dae2.svg"}}]);
-//# sourceMappingURL=20.d7075bd8.chunk.js.map

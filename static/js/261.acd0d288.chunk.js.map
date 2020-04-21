@@ -1,1 +1,0 @@
-{"version":3,"sources":["../node_modules/bootstrap-icons/icons/file-spreadsheet.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/261.acd0d288.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/file-spreadsheet.5cde36a1.svg\";"],"sourceRoot":""}

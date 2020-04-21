@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/trash2.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/497.3ba40708.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/trash2.a72ebae2.svg\";"],"sourceRoot":""}

@@ -1,1 +1,0 @@
-{"version":3,"sources":["../node_modules/bootstrap-icons/icons/person-fill.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/399.0ba91088.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/person-fill.4f08d105.svg\";"],"sourceRoot":""}

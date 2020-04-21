@@ -1,2 +1,0 @@
-(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[88],{439:function(e,p,t){e.exports=t.p+"static/media/box-arrow-in-up.c749373f.svg"}}]);
-//# sourceMappingURL=88.d5d3c011.chunk.js.map

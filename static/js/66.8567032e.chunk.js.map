@@ -1,1 +1,0 @@
-{"version":3,"sources":["../node_modules/bootstrap-icons/icons/bookmark-check.svg"],"names":["module","exports"],"mappings":"gGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/66.8567032e.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/bookmark-check.8316e859.svg\";"],"sourceRoot":""}

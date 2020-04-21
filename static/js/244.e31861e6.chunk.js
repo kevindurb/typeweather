@@ -1,2 +1,0 @@
-(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[244],{595:function(e,a,p){e.exports=p.p+"static/media/file-earmark-arrow-up.8432a4b2.svg"}}]);
-//# sourceMappingURL=244.e31861e6.chunk.js.map

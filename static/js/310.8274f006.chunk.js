@@ -1,2 +1,0 @@
-(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[310],{661:function(e,t,p){e.exports=p.p+"static/media/heart-fill.42f593f7.svg"}}]);
-//# sourceMappingURL=310.8274f006.chunk.js.map

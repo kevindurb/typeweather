@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/blockquote-left.svg"],"names":["module","exports"],"mappings":"gGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/62.b3dda919.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/blockquote-left.e5ee1df7.svg\";"],"sourceRoot":""}

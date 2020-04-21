@@ -1,0 +1,2 @@
+(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[496],{851:function(t,e,a){t.exports=a.p+"static/media/trash2-fill.7afa6f5d.svg"}}]);
+//# sourceMappingURL=496.a1a067a7.chunk.js.map

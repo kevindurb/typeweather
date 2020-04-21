@@ -1,1 +1,0 @@
-{"version":3,"sources":["../node_modules/bootstrap-icons/icons/bag-fill.svg"],"names":["module","exports"],"mappings":"gGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/52.911adc73.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/bag-fill.db736b56.svg\";"],"sourceRoot":""}

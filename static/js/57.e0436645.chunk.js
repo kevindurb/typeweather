@@ -1,2 +1,0 @@
-(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[57],{408:function(t,e,p){t.exports=p.p+"static/media/battery-full.9527c150.svg"}}]);
-//# sourceMappingURL=57.e0436645.chunk.js.map

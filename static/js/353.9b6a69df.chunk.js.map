@@ -1,1 +1,0 @@
-{"version":3,"sources":["../node_modules/bootstrap-icons/icons/lightning-fill.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/353.9b6a69df.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/lightning-fill.ae9d7886.svg\";"],"sourceRoot":""}

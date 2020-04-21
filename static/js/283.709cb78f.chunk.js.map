@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/fullscreen-exit.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/283.709cb78f.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/fullscreen-exit.98957a83.svg\";"],"sourceRoot":""}

@@ -1,0 +1,2 @@
+(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[352],{707:function(e,p,t){e.exports=t.p+"static/media/life-preserver.1fc64b91.svg"}}]);
+//# sourceMappingURL=352.d4ee7639.chunk.js.map

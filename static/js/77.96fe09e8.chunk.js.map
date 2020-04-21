@@ -1,0 +1,1 @@
+{"version":3,"sources":["../node_modules/bootstrap-icons/icons/bounding-box.svg"],"names":["module","exports"],"mappings":"gGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/77.96fe09e8.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/bounding-box.7000087a.svg\";"],"sourceRoot":""}

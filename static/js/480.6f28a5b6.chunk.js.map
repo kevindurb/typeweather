@@ -1,1 +1,0 @@
-{"version":3,"sources":["../node_modules/bootstrap-icons/icons/terminal.svg"],"names":["module","exports"],"mappings":"iGAAAA,EAAOC,QAAU,IAA0B","file":"static/js/480.6f28a5b6.chunk.js","sourcesContent":["module.exports = __webpack_public_path__ + \"static/media/terminal.c2549e94.svg\";"],"sourceRoot":""}

@@ -1,0 +1,2 @@
+(this.webpackJsonptypeweather=this.webpackJsonptypeweather||[]).push([[68],{423:function(e,t,a){e.exports=a.p+"static/media/bookmark-fill.8aa128df.svg"}}]);
+//# sourceMappingURL=68.abcbcb1d.chunk.js.map
