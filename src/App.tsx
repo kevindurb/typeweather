@@ -10,7 +10,6 @@ import CurrentWeather from './components/CurrentWeather';
 function App() {
   const [locationData, fetchLocation] = location.useCurrentLocation();
   const [weatherData, fetchWeather] = weather.useWeatherData(locationData?.latitude, locationData?.longitude);
-  const [now, setNow] = React.useState(new Date());
 
   React.useEffect(() => {
     if (!locationData) {
@@ -20,16 +19,14 @@ function App() {
     }
   }, [fetchLocation, fetchWeather, locationData, weatherData]);
 
-  React.useEffect(() => {
-    const interval = setInterval(() => {
-      setNow(new Date())
-    }, 1000)
-    return () => {
-      clearInterval(interval)
-    }
-  }, [])
+  const nowString = React.useMemo(() => datefns.format(new Date(), 'PPPP'), [])
 
-  const nowString = React.useMemo(() => datefns.format(now, 'PPpp'), [now])
+  const locationString = React.useMemo(() => {
+    if (!locationData?.locality) {
+      return `${locationData?.latitude}, ${locationData?.longitude}`;
+    }
+    return `${locationData?.locality}, ${locationData?.principalSubdivision}`;
+  }, [locationData]);
 
   if (!weatherData) return null;
 
@@ -37,7 +34,7 @@ function App() {
     <WeatherContext.Provider value={weatherData}>
       <div className="container">
         <div className="row justify-content-center">
-          <h6 className="text-secondary text-center col">{locationData?.latitude}, {locationData?.longitude}</h6>
+          <h6 className="text-secondary text-center col">{locationString}</h6>
         </div>
         <div className="row justify-content-center">
           <h6 className="text-secondary text-center col">{nowString}</h6>
