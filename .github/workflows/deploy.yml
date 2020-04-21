@@ -1,0 +1,23 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: GitHub Action for Yarn
+      uses: Borales/actions-yarn@v2.1.0
+      with:
+        cmd: install
+
+    - name: GitHub Pages
+      uses: crazy-max/ghaction-github-pages@v1.4.0
+      with:
+        build_dir: ./build
