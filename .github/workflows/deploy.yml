@@ -16,7 +16,6 @@ jobs:
       uses: Borales/actions-yarn@v2.1.0
       with:
         cmd: install
-    - name: GitHub Action for Yarn
-      uses: Borales/actions-yarn@v2.1.0
-      with:
-        cmd: deploy
+
+    - name: GitHub Pages
+      uses: crazy-max/ghaction-github-pages@v1.4.0
