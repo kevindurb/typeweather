@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d97ad28576ecb862cf98fd2de6d600d",
+    "revision": "464463f19c85c26a6824a3ab2c438f16",
     "url": "/typeweather/index.html"
   },
   {
