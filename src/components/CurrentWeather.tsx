@@ -18,7 +18,10 @@ function CurrentWeather({ currentData, todayData }: CurrentWeatherProps) {
           {currentData.weather[0].description}
         </h1>
       </div>
-      <div className="row justify-content-center my-3">
+      <div className="row justify-content-center mt-3">
+        <h2>Today</h2>
+      </div>
+      <div className="row justify-content-center">
         <h4>
           <span className="text-danger">
             {todayData.temp.max.toFixed(0)}&deg;

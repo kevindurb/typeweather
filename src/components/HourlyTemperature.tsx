@@ -26,7 +26,7 @@ function HourlyTemperature({
       })),
     [hourlyData],
   );
-  const height = React.useMemo(() => width * (9 / 16), [width]);
+  const height = React.useMemo(() => Math.min(width * (9 / 16), 200), [width]);
   const domain = React.useMemo(() => ['dataMin', 'dataMax'], []);
   const xFormatter = React.useCallback(
     (dt: number) => datefns.format(dt * 1000, 'haaaaa'),
@@ -46,7 +46,7 @@ function HourlyTemperature({
 
   return (
     <>
-      <div className="row justify-content-center my-3">
+      <div className="row justify-content-center mt-3">
         <h2>Hourly</h2>
       </div>
       <div ref={container}>
