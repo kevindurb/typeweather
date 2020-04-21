@@ -18,6 +18,7 @@ function DailyTemperature({ dailyData }: DailyTemperatureProps) {
     (dt: number) => datefns.format(dt * 1000, 'ccc'),
     [],
   );
+  const formatY = React.useCallback((x) => `${Math.round(x)}°`, []);
 
   const margin = React.useMemo(
     () => ({
@@ -43,13 +44,16 @@ function DailyTemperature({ dailyData }: DailyTemperatureProps) {
         >
           <Recharts.CartesianGrid strokeDasharray="3 3" stroke="#6c757d" />
           <Recharts.XAxis
+            interval="preserveStartEnd"
             dataKey="dt"
             tickFormatter={xFormatter}
             axisLine={false}
           />
           <Recharts.YAxis
-            hide={true}
+            interval="preserveStartEnd"
+            tickFormatter={formatY}
             domain={domain as [Recharts.AxisDomain, Recharts.AxisDomain]}
+            width={32}
           />
           <Recharts.Line
             type="monotone"

@@ -13,7 +13,7 @@ function CurrentWeather({ currentData, todayData }: CurrentWeatherProps) {
   return (
     <>
       <div className="row justify-content-center my-3">
-        <h1 className="text-info text-center col">
+        <h1 className="text-center col">
           Currently {currentData.temp}&deg; and{' '}
           {currentData.weather[0].description}
         </h1>

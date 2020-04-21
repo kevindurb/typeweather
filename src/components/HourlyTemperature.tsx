@@ -29,6 +29,7 @@ function HourlyTemperature({
     (dt: number) => datefns.format(dt * 1000, 'haaaaa'),
     [],
   );
+  const formatY = React.useCallback((x) => `${Math.round(x)}°`, []);
 
   const margin = React.useMemo(
     () => ({
@@ -55,13 +56,16 @@ function HourlyTemperature({
           <Recharts.CartesianGrid strokeDasharray="3 3" stroke="#6c757d" />
           <Recharts.XAxis
             dataKey="dt"
+            interval="preserveStartEnd"
             tickFormatter={xFormatter}
             axisLine={false}
           />
           <Recharts.YAxis
-            hide={true}
             dataKey="temp"
             yAxisId="temp"
+            interval="preserveStartEnd"
+            tickFormatter={formatY}
+            width={32}
             domain={domain as [Recharts.AxisDomain, Recharts.AxisDomain]}
           />
           <Recharts.YAxis
