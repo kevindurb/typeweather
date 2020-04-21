@@ -42,11 +42,10 @@ function App() {
       </div>
       <CurrentWeather
         currentData={weatherData.current}
+        todayData={weatherData.daily[0]}
       />
       <HourlyTemperature
         hourlyData={weatherData.hourly}
-        maxTemp={weatherData.daily[0]?.temp.max}
-        minTemp={weatherData.daily[0]?.temp.min}
       />
       <DailyTemperature
         dailyData={weatherData.daily}

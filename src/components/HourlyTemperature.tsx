@@ -6,14 +6,10 @@ import * as dom from '../hooks/dom';
 
 interface HourlyTemperatureProps {
   hourlyData: HourlyWeather[];
-  maxTemp: number;
-  minTemp: number;
 }
 
 function HourlyTemperature({
   hourlyData,
-  maxTemp,
-  minTemp,
 }: HourlyTemperatureProps) {
   const [container, width] = dom.useRefWidth<HTMLDivElement>();
 
@@ -22,6 +18,8 @@ function HourlyTemperature({
       hourlyData.slice(0, 24).map((hour) => ({
         temp: hour.temp,
         rain: hour.rain?.['1h'] ?? 0,
+        snow: hour.snow?.['1h'] ?? 0,
+        dt: hour.dt,
       })),
     [hourlyData],
   );
@@ -46,12 +44,6 @@ function HourlyTemperature({
     <>
       <div className="row justify-content-center my-3">
         <h2>Hourly</h2>
-      </div>
-      <div className="row justify-content-center my-3">
-        <h4>
-          <span className="text-danger">{maxTemp.toFixed(0)}&deg;</span> /{' '}
-          <span className="text-primary">{minTemp.toFixed(0)}&deg;</span>
-        </h4>
       </div>
       <div ref={container}>
         <Recharts.LineChart
@@ -78,6 +70,12 @@ function HourlyTemperature({
             yAxisId="rain"
             domain={[0, 1]}
           />
+          <Recharts.YAxis
+            hide={true}
+            dataKey="snow"
+            yAxisId="snow"
+            domain={[0, 1]}
+          />
           <Recharts.Line
             type="monotone"
             dataKey="temp"
@@ -96,20 +94,17 @@ function HourlyTemperature({
             isAnimationActive={false}
             dot={false}
           />
+          <Recharts.Line
+            type="monotone"
+            dataKey="snow"
+            yAxisId="snow"
+            stroke="#17a2b8"
+            strokeWidth={2}
+            isAnimationActive={false}
+            dot={false}
+          />
           <Recharts.Tooltip
             labelFormatter={xFormatter as Recharts.LabelFormatter}
-          />
-          <Recharts.ReferenceLine
-            y={maxTemp}
-            stroke="#dc3545"
-            strokeWidth={2}
-            yAxisId="temp"
-          />
-          <Recharts.ReferenceLine
-            y={minTemp}
-            stroke="#007bff"
-            strokeWidth={2}
-            yAxisId="temp"
           />
         </Recharts.LineChart>
       </div>
