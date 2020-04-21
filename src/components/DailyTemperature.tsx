@@ -9,7 +9,6 @@ function DailyTemperature() {
   const dailyData = weatherData.daily;
   const [container, width] = dom.useRefWidth<HTMLDivElement>();
 
-  const subset = React.useMemo(() => dailyData.slice(0, 7), [dailyData]);
   const height = React.useMemo(() => Math.min(width * (9 / 16), 200), [width]);
   const domain = React.useMemo(() => ['dataMin', 'dataMax'], []);
   const xFormatter = React.useCallback(
@@ -35,7 +34,7 @@ function DailyTemperature() {
       </div>
       <div ref={container}>
         <Recharts.LineChart
-          data={subset}
+          data={dailyData}
           width={width}
           height={height}
           margin={margin}
