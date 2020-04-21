@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "35ef40ffad4021f7a556598fb73c631a",
+    "revision": "1d13f93b9e80758a1c7670c29a5a86cc",
     "url": "/typeweather/index.html"
   },
   {
-    "revision": "ff0b84497ab661199c0b",
+    "revision": "033e0b4c3ad6cb5cbfe4",
     "url": "/typeweather/static/css/2.68bf7c02.chunk.css"
   },
   {
@@ -448,12 +448,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/typeweather/static/js/199.0b1a6f41.chunk.js"
   },
   {
-    "revision": "ff0b84497ab661199c0b",
-    "url": "/typeweather/static/js/2.da801e71.chunk.js"
+    "revision": "033e0b4c3ad6cb5cbfe4",
+    "url": "/typeweather/static/js/2.bbce5844.chunk.js"
   },
   {
     "revision": "aa754ba9f73776ab5291549b6092b0f0",
-    "url": "/typeweather/static/js/2.da801e71.chunk.js.LICENSE.txt"
+    "url": "/typeweather/static/js/2.bbce5844.chunk.js.LICENSE.txt"
   },
   {
     "revision": "b74b26e0a1971940dfad",
@@ -2160,8 +2160,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/typeweather/static/js/99.37353e75.chunk.js"
   },
   {
-    "revision": "180ed699dcce12b57f12",
-    "url": "/typeweather/static/js/main.5d6415eb.chunk.js"
+    "revision": "99c48af27d1f76fdb5a6",
+    "url": "/typeweather/static/js/main.d544aa28.chunk.js"
   },
   {
     "revision": "04d3b1a1aab85cd70c63",
