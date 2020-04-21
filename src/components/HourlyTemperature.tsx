@@ -8,6 +8,9 @@ interface HourlyTemperatureProps {
   hourlyData: HourlyWeather[];
 }
 
+const RAIN_RANGE = [0, 60];
+const SNOW_RANGE = [0, 500];
+
 function HourlyTemperature({
   hourlyData,
 }: HourlyTemperatureProps) {
@@ -72,13 +75,13 @@ function HourlyTemperature({
             hide={true}
             dataKey="rain"
             yAxisId="rain"
-            domain={[0, 1]}
+            domain={RAIN_RANGE as [Recharts.AxisDomain, Recharts.AxisDomain]}
           />
           <Recharts.YAxis
             hide={true}
             dataKey="snow"
             yAxisId="snow"
-            domain={[0, 1]}
+            domain={SNOW_RANGE as [Recharts.AxisDomain, Recharts.AxisDomain]}
           />
           <Recharts.Line
             type="monotone"
