@@ -1,14 +1,12 @@
 import * as React from 'react';
 import * as Recharts from 'recharts';
 import * as datefns from 'date-fns';
-import { DailyWeather } from '../hooks/weather';
 import * as dom from '../hooks/dom';
+import { WeatherContext } from '../contexts/weather';
 
-interface DailyTemperatureProps {
-  dailyData: DailyWeather[];
-}
-
-function DailyTemperature({ dailyData }: DailyTemperatureProps) {
+function DailyTemperature() {
+  const weatherData = React.useContext(WeatherContext)!;
+  const dailyData = weatherData.daily;
   const [container, width] = dom.useRefWidth<HTMLDivElement>();
 
   const subset = React.useMemo(() => dailyData.slice(0, 7), [dailyData]);

@@ -1,15 +1,10 @@
 import * as React from 'react';
-import {
-  CurrentWeather as CurrentWeatherType,
-  DailyWeather,
-} from '../hooks/weather';
+import { WeatherContext } from '../contexts/weather';
 
-interface CurrentWeatherProps {
-  currentData: CurrentWeatherType;
-  todayData: DailyWeather;
-}
-
-function CurrentWeather({ currentData, todayData }: CurrentWeatherProps) {
+function CurrentWeather() {
+  const weatherData = React.useContext(WeatherContext)!;
+  const currentData = weatherData.current;
+  const todayData = weatherData.daily[0];
   return (
     <>
       <div className="row justify-content-center my-3">

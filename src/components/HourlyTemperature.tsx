@@ -1,19 +1,15 @@
 import * as React from 'react';
 import * as Recharts from 'recharts';
 import * as datefns from 'date-fns';
-import { HourlyWeather } from '../hooks/weather';
 import * as dom from '../hooks/dom';
-
-interface HourlyTemperatureProps {
-  hourlyData: HourlyWeather[];
-}
+import { WeatherContext } from '../contexts/weather';
 
 const RAIN_RANGE = [0, 60];
 const SNOW_RANGE = [0, 500];
 
-function HourlyTemperature({
-  hourlyData,
-}: HourlyTemperatureProps) {
+function HourlyTemperature() {
+  const weatherData = React.useContext(WeatherContext)!;
+  const hourlyData = weatherData.hourly;
   const [container, width] = dom.useRefWidth<HTMLDivElement>();
 
   const subset = React.useMemo(
