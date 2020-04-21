@@ -1,29 +1,33 @@
+import * as React from 'react';
 import * as qs from 'querystring';
-import * as api from './api';
 
 interface LocationResponse {
-  city?: string;
-  country?: string;
-  countryCode?: string;
   latitude: number;
   longitude: number;
-  region?: string;
-  regionName?: string;
-  postal?: string;
 }
 
 export const useCurrentLocation = (): [
   LocationResponse | undefined,
   () => any,
 ] => {
-  const { lat, lon } = qs.parse(window.location.search.substr(1));
-  const [ipLocation, fetchIpLocation] = api.useGet<LocationResponse>(
-    'https://ipapi.co/json',
+  const { qslat, qslon } = qs.parse(window.location.search.substr(1));
+  let initialLocation =
+    qslat && qslon
+      ? { latitude: Number(qslat), longitude: Number(qslon) }
+      : undefined;
+
+  const [location, setLocation] = React.useState<LocationResponse | undefined>(
+    initialLocation,
   );
 
-  if (lat && lon) {
-    return [{ latitude: Number(lat), longitude: Number(lon) }, () => null];
-  }
+  const fetchLocation = React.useCallback(() => {
+    navigator.geolocation.getCurrentPosition((result) => {
+      setLocation({
+        latitude: result.coords.latitude,
+        longitude: result.coords.longitude,
+      });
+    });
+  }, []);
 
-  return [ipLocation, fetchIpLocation];
+  return [location, fetchLocation];
 };

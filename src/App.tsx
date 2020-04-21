@@ -37,7 +37,7 @@ function App() {
     <WeatherContext.Provider value={weatherData}>
       <div className="container">
         <div className="row justify-content-center">
-          <h6 className="text-secondary text-center col">{locationData?.city}, {locationData?.region}</h6>
+          <h6 className="text-secondary text-center col">{locationData?.latitude}, {locationData?.longitude}</h6>
         </div>
         <div className="row justify-content-center">
           <h6 className="text-secondary text-center col">{nowString}</h6>
