@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/typeweather/static/js/main.2d94d802.chunk.js",
-    "main.js.map": "/typeweather/static/js/main.2d94d802.chunk.js.map",
+    "main.js": "/typeweather/static/js/main.524d16a3.chunk.js",
+    "main.js.map": "/typeweather/static/js/main.524d16a3.chunk.js.map",
     "runtime-main.js": "/typeweather/static/js/runtime-main.1c65fe4e.js",
     "runtime-main.js.map": "/typeweather/static/js/runtime-main.1c65fe4e.js.map",
     "static/css/2.68bf7c02.chunk.css": "/typeweather/static/css/2.68bf7c02.chunk.css",
@@ -1080,7 +1080,7 @@
     "static/js/538.59bbe01f.chunk.js": "/typeweather/static/js/538.59bbe01f.chunk.js",
     "static/js/538.59bbe01f.chunk.js.map": "/typeweather/static/js/538.59bbe01f.chunk.js.map",
     "index.html": "/typeweather/index.html",
-    "precache-manifest.8aa8deec92d4536faaae06d12f982bb8.js": "/typeweather/precache-manifest.8aa8deec92d4536faaae06d12f982bb8.js",
+    "precache-manifest.e0b4c3d41fd6f15370a70542fa01a9ad.js": "/typeweather/precache-manifest.e0b4c3d41fd6f15370a70542fa01a9ad.js",
     "service-worker.js": "/typeweather/service-worker.js",
     "static/css/2.68bf7c02.chunk.css.map": "/typeweather/static/css/2.68bf7c02.chunk.css.map",
     "static/js/2.bbce5844.chunk.js.LICENSE.txt": "/typeweather/static/js/2.bbce5844.chunk.js.LICENSE.txt",
@@ -1625,6 +1625,6 @@
     "static/js/runtime-main.1c65fe4e.js",
     "static/css/2.68bf7c02.chunk.css",
     "static/js/2.bbce5844.chunk.js",
-    "static/js/main.2d94d802.chunk.js"
+    "static/js/main.524d16a3.chunk.js"
   ]
 }

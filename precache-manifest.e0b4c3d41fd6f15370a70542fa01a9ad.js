@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "772853a6227e8155aff87f26bb67cc10",
+    "revision": "f270f2297a8c2e9061fe26a6569b4d73",
     "url": "/typeweather/index.html"
   },
   {
@@ -2160,8 +2160,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/typeweather/static/js/99.37353e75.chunk.js"
   },
   {
-    "revision": "a05b4936e5a11810731b",
-    "url": "/typeweather/static/js/main.2d94d802.chunk.js"
+    "revision": "269edbaf47159defb4c8",
+    "url": "/typeweather/static/js/main.524d16a3.chunk.js"
   },
   {
     "revision": "04d3b1a1aab85cd70c63",
