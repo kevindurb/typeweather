@@ -1,0 +1,5 @@
+GET https://api.openweathermap.org/data/2.5/onecall
+?appid={{$dotenv REACT_APP_OPEN_WEATHER_TOKEN}}
+&lat=38.8202496
+&lon=-104.7688021
+&units=imperial

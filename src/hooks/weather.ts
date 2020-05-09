@@ -85,8 +85,8 @@ export const useWeatherData = (lat?: number, lon?: number) => {
 
   const params = React.useMemo(
     () => ({
-      lat: (lat ?? 0).toString(),
-      lon: (lon ?? 0).toString(),
+      lat: (lat ?? '').toString(),
+      lon: (lon ?? '').toString(),
       appid: TOKEN,
       units: 'imperial',
     }),
