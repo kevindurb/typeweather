@@ -31,7 +31,7 @@ export const useCurrentLocation = (): [Location | undefined, () => any] => {
     });
   }, []);
 
-  const [_, fetchGeoData] = api.useGet<GeocodeResponse>(
+  const [, fetchGeoData] = api.useGet<GeocodeResponse>(
     'https://api.bigdatacloud.net/data/reverse-geocode-client',
   );
 
